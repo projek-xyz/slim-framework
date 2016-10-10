@@ -1,6 +1,7 @@
 <?php
 namespace Projek\Slim\Mailer;
 
+use Projek\Slim\View;
 use Psr\Log\LogLevel;
 
 class SmtpDriver implements MailDriverInterface
@@ -133,7 +134,7 @@ class SmtpDriver implements MailDriverInterface
         if (strpos($body, '::') !== false) {
             $this->mail->isHTML(true);
 
-            $body = app('view')->render($body, $data);
+            $body = app(View::class)->render($body, $data);
         }
 
         $this->mail->Body = $body;
