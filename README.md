@@ -7,24 +7,9 @@
 [![Code Climate](https://img.shields.io/codeclimate/github/projek-xyz/slim-framework.svg?style=flat-square)](https://codeclimate.com/github/projek-xyz/slim-framework)
 [![Code Climate](https://img.shields.io/codeclimate/coverage/github/projek-xyz/slim-framework.svg?style=flat-square)](https://codeclimate.com/github/projek-xyz/slim-framework)
 
-## Requirements
+## Documentation
 
-- PHP 5.5.x or newer, since Slim v3.x depends on it.
-- HTTP Server, e.g. NginX or Apache either.
-- MySQL Server 5.x or newer for main database.
-
-## Install
-
-Via [composer](https://getcomposer.org/download/).
-
-```bash
-$ composer require projek-xyz/slim --prefer-dist
-```
-
-## TODO
-
-- [ ] Documentations
-- [ ] Any thoughs? [let me know](../../issues/new)
+Documentation for the framework can be found on the [wiki](../../wiki)
 
 ## Contributing
 
