@@ -1,6 +1,6 @@
 {
     "name": "projek-xyz/slim",
-    "description": "Slim micro framework 3 _-based_ Application Framework",
+    "description": "Build a web application on top of Slim micro framework with ease.",
     "keywords": ["slim", "microframework", "framework", "core", "library"],
     "homepage": "http://www.projek.xyz/slim-skeleton",
     "type": "library",
