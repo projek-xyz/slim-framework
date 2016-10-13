@@ -1,12 +1,8 @@
 ## Content
 
-### Getting Started
+- [Getting Started](#)
 
-- [Installation](#)
-- [Configuration](#)
-- [Directory Structure](#)
-
-### Contents
+### Usage
 
 - [Controllers](#)
 - [File System](#)
