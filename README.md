@@ -12,11 +12,11 @@ This is core library for owr very own [Slim Skeleton](https://github.com/projek-
 
 ## Documentation
 
-Documentation for the framework can be found on the [wiki](../../wiki).
+Full documentation can be found on the [wiki](../../wiki).
 
 ## Contributing
 
-Please see [CONTRIBUTING](.github/CONTRIBUTING.md) and [CONDUCT](.github/CONDUCT.md) for details.
+Please see [CONTRIBUTING.md](.github/CONTRIBUTING.md) and [CONDUCT.md](.github/CONDUCT.md) for details.
 
 ## License
 
