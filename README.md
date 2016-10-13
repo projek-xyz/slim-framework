@@ -8,11 +8,11 @@
 [![Code Climate](https://img.shields.io/codeclimate/github/projek-xyz/slim-framework.svg?style=flat-square)](https://codeclimate.com/github/projek-xyz/slim-framework)
 [![SensioLabs Insight](https://img.shields.io/sensiolabs/i/54d5b9b0-46bb-45b3-bf83-03cb483b4a81.svg?style=flat-square)](https://insight.sensiolabs.com/projects/54d5b9b0-46bb-45b3-bf83-03cb483b4a81)
 
-Build a web application on top of Slim micro framework with ease.
+This is core library for owr very own [Slim Skeleton](https://github.com/projek-xyz/slim-skeleton).
 
 ## Documentation
 
-Documentation for the framework can be found on the [wiki](../../wiki)
+Documentation for the framework can be found on the [wiki](../../wiki).
 
 ## Contributing
 

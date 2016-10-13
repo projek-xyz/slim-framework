@@ -1,8 +1,7 @@
 {
     "name": "projek-xyz/slim",
-    "description": "Build a web application on top of Slim micro framework with ease.",
+    "description": "Core library for projek-xyz/slim-skeleton",
     "keywords": ["slim", "microframework", "framework", "core", "library"],
-    "homepage": "http://www.projek.xyz/slim-skeleton",
     "type": "library",
     "license": "MIT",
     "authors": [
