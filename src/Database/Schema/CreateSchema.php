@@ -11,7 +11,7 @@ class CreateSchema extends Schema
     protected $indexes = [];
 
     /**
-     *  {@inheritdoc}
+     *  @inheritdoc
      */
     public function build(Database $database = null)
     {

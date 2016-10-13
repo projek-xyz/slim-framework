@@ -19,7 +19,7 @@ class Container extends SlimContainer
     private static $instance = null;
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function __construct(array $value = [], $rootDir = null)
     {

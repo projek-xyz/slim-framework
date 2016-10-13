@@ -77,7 +77,7 @@ class SmtpDriver implements MailDriverInterface
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function from($email, $name)
     {
@@ -87,7 +87,7 @@ class SmtpDriver implements MailDriverInterface
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function to($address, $name = '')
     {
@@ -97,7 +97,7 @@ class SmtpDriver implements MailDriverInterface
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function cc($address, $name = '')
     {
@@ -107,7 +107,7 @@ class SmtpDriver implements MailDriverInterface
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function bcc($address, $name = '')
     {
@@ -117,7 +117,7 @@ class SmtpDriver implements MailDriverInterface
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function subject($subject)
     {
@@ -127,7 +127,7 @@ class SmtpDriver implements MailDriverInterface
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function content($body, array $data = [])
     {
@@ -143,7 +143,7 @@ class SmtpDriver implements MailDriverInterface
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function attaches($filepath, $name = '', $encoding = 'base64', $type = '', $disposition = 'attachment')
     {
@@ -164,7 +164,7 @@ class SmtpDriver implements MailDriverInterface
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function send()
     {

@@ -10,7 +10,7 @@ use Slim\Handlers\NotFound;
 class NotFoundHandler extends NotFound
 {
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function __invoke(ServerRequestInterface $request, ResponseInterface $response)
     {
@@ -22,7 +22,7 @@ class NotFoundHandler extends NotFound
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     protected function renderHtmlNotFoundOutput(ServerRequestInterface $request)
     {

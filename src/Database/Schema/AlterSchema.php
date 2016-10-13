@@ -13,7 +13,7 @@ class AlterSchema extends Schema
     protected $callback;
 
     /**
-     *  {@inheritdoc}
+     *  @inheritdoc
      */
     public function build(Database $database = null)
     {

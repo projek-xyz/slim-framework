@@ -6,7 +6,7 @@ use League\CLImate\TerminalObject\Basic\Tab as BasicTab;
 class Tab extends BasicTab
 {
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function result()
     {

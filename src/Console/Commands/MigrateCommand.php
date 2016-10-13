@@ -7,17 +7,17 @@ use Projek\Slim\Database\Migrator;
 class MigrateCommand extends Console\Commands
 {
     /**
-     * {@inheritedoc}
+     * @inheritdoc
      */
     protected $name = 'migrate';
 
     /**
-     * {@inheritedoc}
+     * @inheritdoc
      */
     protected $description = 'Execute migration data';
 
     /**
-     * {@inheritedoc}
+     * @inheritdoc
      */
     protected $arguments = [
         'up' => [
@@ -35,7 +35,7 @@ class MigrateCommand extends Console\Commands
     ];
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function __invoke(Console\Input$input, Console\Output $output, Console\Arguments $args)
     {

@@ -7,7 +7,7 @@ use League\CLImate\Argument\Summary as BaseSummary;
 class Summary extends BaseSummary
 {
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function output()
     {
@@ -27,7 +27,7 @@ class Summary extends BaseSummary
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     protected function outputArguments($arguments, $type)
     {

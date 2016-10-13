@@ -9,7 +9,7 @@ use Exception;
 class ErrorHandler extends Error
 {
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     protected function renderHtmlErrorMessage(Exception $exception)
     {
@@ -35,7 +35,7 @@ class ErrorHandler extends Error
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     protected function logError($message)
     {

@@ -7,7 +7,7 @@ use Slim\PDO\Database;
 class DeleteSchema extends Schema
 {
     /**
-     *  {@inheritdoc}
+     *  @inheritdoc
      */
     public function build(Database $database = null)
     {
