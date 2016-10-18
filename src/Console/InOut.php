@@ -4,7 +4,7 @@ namespace Projek\Slim\Console;
 use League\CLImate\CLImate;
 use Projek\Slim\Console;
 
-class IO
+abstract class InOut
 {
     /**
      * @var  CLImate

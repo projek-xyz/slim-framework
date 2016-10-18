@@ -1,7 +1,7 @@
 <?php
 namespace Projek\Slim\Console;
 
-class Input extends IO
+class Input extends InOut
 {
 
     /**

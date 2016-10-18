@@ -1,7 +1,7 @@
 <?php
 namespace Projek\Slim\Console;
 
-class Output extends IO
+class Output extends InOut
 {
     /**
      * Returns CLImate comment output
