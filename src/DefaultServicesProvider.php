@@ -7,7 +7,7 @@ use Pimple\ServiceProviderInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Slim\Collection;
 use Slim\Http\Headers;
-use Slim\PDO\Database as SlimDatabase;
+use Faapz\PDO\Database as SlimDatabase;
 use Valitron\Validator;
 
 class DefaultServicesProvider implements ServiceProviderInterface

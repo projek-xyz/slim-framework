@@ -2,7 +2,7 @@
 namespace Projek\Slim\Database\Schema;
 
 use Projek\Slim\Database\Schema;
-use Slim\PDO\Database;
+use Faapz\PDO\Database;
 
 class CreateSchema extends Schema
 {

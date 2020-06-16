@@ -1,7 +1,7 @@
 <?php
 namespace Projek\Slim\Tests;
 
-use Slim\PDO\Database;
+use Faapz\PDO\Database;
 
 class DatabaseTestCase extends TestCase
 {

@@ -1,7 +1,7 @@
 <?php
 namespace Projek\Slim\Database;
 
-use Slim\PDO\Database as SlimDatabase;
+use Faapz\PDO\Database as SlimDatabase;
 
 abstract class Schema
 {

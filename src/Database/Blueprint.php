@@ -1,7 +1,7 @@
 <?php
 namespace Projek\Slim\Database;
 
-use Slim\PDO\Database;
+use Faapz\PDO\Database;
 
 /**
  * @method bool rename($newName)

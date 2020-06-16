@@ -1,7 +1,7 @@
 <?php
 namespace Projek\Slim\Database;
 
-use Slim\PDO\Statement\SelectStatement;
+use Faapz\PDO\Statement\SelectStatement;
 
 class Results implements \Countable
 {

@@ -1,15 +1,13 @@
+version: "2"
+
 engines:
   fixme:
     enabled: true
   phpcodesniffer:
     enabled: true
-    config:
-      standard: 'PSR2'
+  phpmd:
+    enabled: true
 
 ratings:
   paths:
-    - src/**/*.php
-
-exclude_paths:
-  - tests/*
-  - vendor/*
+    - src/**.php

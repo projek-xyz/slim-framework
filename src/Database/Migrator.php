@@ -2,7 +2,7 @@
 namespace Projek\Slim\Database;
 
 use Projek\Slim\Console\Output;
-use Slim\PDO\Database;
+use Faapz\PDO\Database;
 
 class Migrator
 {

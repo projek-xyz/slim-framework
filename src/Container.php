@@ -5,7 +5,7 @@ use Slim\Container as SlimContainer;
 
 /**
  * @property-read callable data
- * @property-read \Slim\PDO\Database db
+ * @property-read \Faapz\PDO\Database db
  * @property-read \League\Flysystem\Filesystem filesystem
  * @property-read Logger logger
  * @property-read Mailer mailer

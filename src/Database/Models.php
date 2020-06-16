@@ -2,8 +2,8 @@
 namespace Projek\Slim\Database;
 
 use Projek\Slim\Container;
-use Slim\PDO\Database;
-use Slim\PDO\Statement\StatementContainer;
+use Faapz\PDO\Database;
+use Faapz\PDO\Statement\StatementContainer;
 
 abstract class Models implements \Countable
 {
@@ -279,7 +279,7 @@ abstract class Models implements \Countable
      *
      * @param  array $columns
      *
-     * @return \Slim\PDO\Statement\SelectStatement
+     * @return \Faapz\PDO\Statement\SelectStatement
      */
     protected function select(array $columns = [])
     {
@@ -297,7 +297,7 @@ abstract class Models implements \Countable
      *
      * @param  array $pairs
      *
-     * @return \Slim\PDO\Statement\InsertStatement
+     * @return \Faapz\PDO\Statement\InsertStatement
      */
     protected function insert($pairs)
     {
@@ -309,7 +309,7 @@ abstract class Models implements \Countable
      *
      * @param  array $pairs
      *
-     * @return \Slim\PDO\Statement\UpdateStatement
+     * @return \Faapz\PDO\Statement\UpdateStatement
      */
     protected function update($pairs)
     {
@@ -319,7 +319,7 @@ abstract class Models implements \Countable
     /**
      * Select data from table
      *
-     * @return \Slim\PDO\Statement\DeleteStatement
+     * @return \Faapz\PDO\Statement\DeleteStatement
      */
     protected function remove()
     {
@@ -333,7 +333,7 @@ abstract class Models implements \Countable
      * @param  string|null $second
      * @param  string $joinType
      *
-     * @return \Slim\PDO\Statement\SelectStatement
+     * @return \Faapz\PDO\Statement\SelectStatement
      */
     protected function join($model, $first = null, $operator = '=', $second = null, $joinType = 'INNER')
     {
@@ -379,7 +379,7 @@ abstract class Models implements \Countable
     /**
      * Normalize query terms
      *
-     * @param  \Slim\PDO\Statement\StatementContainer $stmt
+     * @param  \Faapz\PDO\Statement\StatementContainer $stmt
      * @param  Models|array|int|callable $terms
      *
      * @return void
